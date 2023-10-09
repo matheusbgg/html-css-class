@@ -1,14 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #cccccc;
+}
+.titulo-principal {
+    padding-left: 20px;
+    text-align: center;
+}
+.titulo-sobre {
+    text-align: center;
+}
 #banner {
-    width: 100%;
+    width: 100%;   
 }
 
 .principal {
+    width: 97%;
+    margin: auto;
     background: #873939;
-    padding: 30px;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 13px;
 }
 
-h1 {
-    text-align: center;
+.titulo-centralizado {
+    height: 50px;
+    text-align: left;
 }
 
 p {
@@ -19,30 +42,23 @@ p {
     font-size: 20px;
 }
 
-em strong {
+strong {
     color: #c3a306;
 }
 
 .beneficios {
-    background: #ffffff;
     padding: 20px;
-}
-
-h2 {
-    text-align: center;
 }
 
 ul {
     display: inline-block;
     vertical-align: top;
-    width: 20%S;
+    width: 30%;
     margin-right: 15%;
 }
 
-.itens {
-    font-style: italic;
-}
 
 .photo-beneficios {
     width: 50%;
+    border-radius: 20px;
 }
